@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clashroom-landing/static/css/main.31688832.css",
+    "main.js": "/clashroom-landing/static/js/main.5114e086.js",
+    "index.html": "/clashroom-landing/index.html",
+    "main.31688832.css.map": "/clashroom-landing/static/css/main.31688832.css.map",
+    "main.5114e086.js.map": "/clashroom-landing/static/js/main.5114e086.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31688832.css",
+    "static/js/main.5114e086.js"
+  ]
+}
