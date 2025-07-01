@@ -2,36 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply font-sans;
-}
+/* Brand utility classes for overlays, text, etc. */
+.bg-clashGreen { background-color: #10b981; }
+.bg-clashBlue { background-color: #06b6d4; }
+.bg-clashGray { background-color: #1e293b; }
+.text-clashGreen { color: #10b981; }
+.text-clashBlue { color: #06b6d4; }
+.text-clashRed { color: #ef4444; }
 
-html {
-  scroll-behavior: smooth;
-  transition: background-color 0.5s ease, color 0.5s ease;
-}
+/* Fallback for readable "Cred" */
+.cred-text { color: #fff !important; text-shadow: 0 1px 3px #08b785bb; }
 
-@keyframes glow {
-  0%, 100% { filter: drop-shadow(0 0 4px #0fffc1); }
-  50% { filter: drop-shadow(0 0 12px #32f592); }
+/* Animate overlay (if you want, optional) */
+@keyframes slide-in {
+  0% { transform: translateY(-20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
 }
-.dark .animate-glow {
-  animation: glow 2s infinite;
-}
-
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-.animate-gradientShift {
-  animation: gradientShift 12s ease infinite;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.animate-fadeIn {
-  animation: fadeIn 0.8s ease-in-out forwards;
-}
+.animate-slide-in { animation: slide-in 0.7s cubic-bezier(.42,0,.58,1) both; }
