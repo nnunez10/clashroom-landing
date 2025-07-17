@@ -65,69 +65,21 @@ function ShareButton() {
 }
 
 const testimonials = [
-  {
-    quote: "Came here cocky, left with a list of things to Google. This app’s a humbler.",
-    author: "Jaylen (Brooklyn, NY)",
-    emoji: "😂"
-  },
-  {
-    quote: "Tried to run my mouth—got fact-checked by a 19-year-old. I respect it.",
-    author: "Liz (Miami, FL)",
-    emoji: "🥲"
-  },
-  {
-    quote: "Way better than group chats, ‘cause you actually learn something.",
-    author: "Manny (Houston, TX)",
-    emoji: "📲"
-  },
-  {
-    quote: "Finally, an app where trolling makes you lose points. Shook.",
-    author: "Aliyah (Seattle, WA)",
-    emoji: "🤓"
-  },
-  {
-    quote: "No more ‘my opinion is my fact.’ If you can't back it up, you're getting roasted.",
-    author: "Kevin (Chicago, IL)",
-    emoji: "🫡"
-  },
-  {
-    quote: "Debated my cousin, lost in public, and somehow I’m still coming back. Wild.",
-    author: "Jess (Los Angeles, CA)",
-    emoji: "👀"
-  }
+  { quote: "Came here cocky, left with a list of things to Google. This app’s a humbler.", author: "Jaylen (Brooklyn, NY)", emoji: "😂" },
+  { quote: "Tried to run my mouth—got fact-checked by a 19-year-old. I respect it.", author: "Liz (Miami, FL)", emoji: "🥲" },
+  { quote: "Way better than group chats, ‘cause you actually learn something.", author: "Manny (Houston, TX)", emoji: "📲" },
+  { quote: "Finally, an app where trolling makes you lose points. Shook.", author: "Aliyah (Seattle, WA)", emoji: "🤓" },
+  { quote: "No more ‘my opinion is my fact.’ If you can't back it up, you're getting roasted.", author: "Kevin (Chicago, IL)", emoji: "🫡" },
+  { quote: "Debated my cousin, lost in public, and somehow I’m still coming back. Wild.", author: "Jess (Los Angeles, CA)", emoji: "👀" }
 ];
 
 const features = [
-  {
-    title: "Live Debates",
-    description: "Hop in, speak up, or just watch people roast each other—video, audio, or just text.",
-    icon: "🎤"
-  },
-  {
-    title: "Instant Fact-Check",
-    description: "Make a claim, get checked—live. Not just AI, real people too. No more wild stats with zero proof.",
-    icon: "📲"
-  },
-  {
-    title: "Earn Cred, Not Clout",
-    description: "Truth actually matters here. Score goes up for real talk, down if you troll or spam.",
-    icon: "🏆"
-  },
-  {
-    title: "Receipts for Every Claim",
-    description: "Nobody’s getting away with BS. Everything you say, you better back it up. And everyone sees the receipts.",
-    icon: "🧾"
-  },
-  {
-    title: "Troll Filter",
-    description: "The more you troll, the less power you have. Community votes you down, not up.",
-    icon: "🚫"
-  },
-  {
-    title: "Bring Your Squad",
-    description: "Debate your friends, your followers, or some random loudmouth—winner gets bragging rights.",
-    icon: "👥"
-  }
+  { title: "Live Debates", description: "Hop in, speak up, or just watch people roast each other—video, audio, or just text.", icon: "🎤" },
+  { title: "Instant Fact-Check", description: "Make a claim, get checked—live. Not just AI, real people too. No more wild stats with zero proof.", icon: "📲" },
+  { title: "Earn Cred, Not Clout", description: "Truth actually matters here. Score goes up for real talk, down if you troll or spam.", icon: "🏆" },
+  { title: "Receipts for Every Claim", description: "Nobody’s getting away with BS. Everything you say, you better back it up. And everyone sees the receipts.", icon: "🧾" },
+  { title: "Troll Filter", description: "The more you troll, the less power you have. Community votes you down, not up.", icon: "🚫" },
+  { title: "Bring Your Squad", description: "Debate your friends, your followers, or some random loudmouth—winner gets bragging rights.", icon: "👥" }
 ];
 
 const patentBrags = [
@@ -140,42 +92,15 @@ const patentBrags = [
 ];
 
 const faqs = [
-  {
-    q: "Is ClashRoom just another debate app?",
-    a: "Nope. We don’t reward shouting or influencer clout—we reward truth. If you can’t back it up, you lose Cred. We use crowd + AI + blockchain so every claim has real receipts."
-  },
-  {
-    q: "How do I earn Cred?",
-    a: "Bring facts, bring receipts, and let the crowd (and ClashBot) judge. Every correct claim, vote, or fact-check earns you ClashCred™—our own patent-pending reputation score."
-  },
-  {
-    q: "Can I lose Cred?",
-    a: "Absolutely. Spread BS, get caught, or troll? Your Cred drops faster than a meme coin. Play smart, not loud."
-  },
-  {
-    q: "What’s with the patent-pending overlays?",
-    a: "Swipe up, get the receipts, and catch trolls in real time. Our overlays show green when facts win, red when lies get called out. All blockchain verified."
-  },
-  {
-    q: "Is ClashRoom for regular users, or just 'experts'?",
-    a: "Everyone can participate—debate, vote, or just watch. You don't need a PhD, just a brain and a willingness to learn (or get fact-checked)."
-  },
-  {
-    q: "How do you prevent bot/spam voting?",
-    a: "ClashCred™ tracks patterns. Bots and trolls lose Cred instantly. Plus, all fact-checks are logged to blockchain—try faking that."
-  },
-  {
-    q: "Can I use this tech for my podcast, video, or site?",
-    a: "Yes! Our API and SDK are coming soon—get on the waitlist to license our tech for your community or platform."
-  },
-  {
-    q: "Why use blockchain?",
-    a: "Receipts, receipts, receipts. Nobody’s editing the truth behind the scenes—every claim, vote, and verdict is timestamped, public, and permanent."
-  },
-  {
-    q: "What if AI gets something wrong?",
-    a: "Even AI gets fact-checked here. The crowd can call out hallucinations. 'We fact check AI' isn’t a slogan—it’s the system."
-  },
+  { q: "Is ClashRoom just another debate app?", a: "Nope. We don’t reward shouting or influencer clout—we reward truth. If you can’t back it up, you lose Cred. We use crowd + AI + blockchain so every claim has real receipts." },
+  { q: "How do I earn Cred?", a: "Bring facts, bring receipts, and let the crowd (and ClashBot) judge. Every correct claim, vote, or fact-check earns you ClashCred™—our own patent-pending reputation score." },
+  { q: "Can I lose Cred?", a: "Absolutely. Spread BS, get caught, or troll? Your Cred drops faster than a meme coin. Play smart, not loud." },
+  { q: "What’s with the patent-pending overlays?", a: "Swipe up, get the receipts, and catch trolls in real time. Our overlays show green when facts win, red when lies get called out. All blockchain verified." },
+  { q: "Is ClashRoom for regular users, or just 'experts'?", a: "Everyone can participate—debate, vote, or just watch. You don't need a PhD, just a brain and a willingness to learn (or get fact-checked)." },
+  { q: "How do you prevent bot/spam voting?", a: "ClashCred™ tracks patterns. Bots and trolls lose Cred instantly. Plus, all fact-checks are logged to blockchain—try faking that." },
+  { q: "Can I use this tech for my podcast, video, or site?", a: "Yes! Our API and SDK are coming soon—get on the waitlist to license our tech for your community or platform." },
+  { q: "Why use blockchain?", a: "Receipts, receipts, receipts. Nobody’s editing the truth behind the scenes—every claim, vote, and verdict is timestamped, public, and permanent." },
+  { q: "What if AI gets something wrong?", a: "Even AI gets fact-checked here. The crowd can call out hallucinations. 'We fact check AI' isn’t a slogan—it’s the system." }
 ];
 
 function useClashCounter(start = 18419) {
@@ -268,31 +193,38 @@ const ClashRoomLanding = () => {
         </a>
       </section>
 
+      {/* UPDATED FORM BELOW */}
       <section id="waitlist" className="py-10 px-2 sm:px-10 lg:px-28 bg-white/80 dark:bg-black/80 rounded-xl shadow max-w-xl mx-auto w-full mt-6">
         <h2 className="text-2xl font-bold mb-3 text-center text-clashBlue dark:text-clashGreen">Be the first in line!</h2>
-        <form
-          action="https://formspree.io/f/xgvylqvq"
-          method="POST"
-          className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 max-w-md w-full mx-auto"
-        >
-          <input
-            type="email"
-            name="email"
-            placeholder="Your email address"
-            required
-            className="px-4 py-2 rounded-md border border-gray-300 dark:border-zinc-700 dark:bg-zinc-900 dark:text-white w-full sm:w-auto"
-            autoComplete="email"
-            value={email}
-            onChange={e => setEmail(e.target.value)}
-          />
-          <button
-            type="submit"
-            className="px-6 py-2 rounded-md bg-clashGreen text-black dark:text-black font-semibold hover:bg-clashBlue transition"
-            disabled={!emailValid}
-          >
-            Sign Up
-          </button>
-        </form>
+     <form
+  action="https://hooks.zapier.com/hooks/catch/23692566/u3lqrp4/"
+  method="POST"
+  className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 max-w-md w-full mx-auto"
+  onSubmit={e => {
+    setTimeout(() => {
+      window.location.href = "/thankyou";
+    }, 200); 
+  }}
+>
+  <input
+    type="email"
+    name="email"
+    placeholder="Your email address"
+    required
+    className="px-4 py-2 rounded-md border border-gray-300 dark:border-zinc-700 dark:bg-zinc-900 dark:text-white w-full sm:w-auto"
+    autoComplete="email"
+    value={email}
+    onChange={e => setEmail(e.target.value)}
+  />
+  <button
+    type="submit"
+    className="px-6 py-2 rounded-md bg-clashGreen text-black dark:text-black font-semibold hover:bg-clashBlue transition"
+    disabled={!emailValid}
+  >
+    Sign Up
+  </button>
+</form>
+  
         <div className="flex justify-center">
           <ShareButton />
         </div>
