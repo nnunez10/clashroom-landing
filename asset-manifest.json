@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/clashroom-landing/static/css/main.31688832.css",
-    "main.js": "/clashroom-landing/static/js/main.02fbd52e.js",
-    "index.html": "/clashroom-landing/index.html",
-    "main.31688832.css.map": "/clashroom-landing/static/css/main.31688832.css.map",
-    "main.02fbd52e.js.map": "/clashroom-landing/static/js/main.02fbd52e.js.map"
+    "main.css": "/static/css/main.31688832.css",
+    "main.js": "/static/js/main.d550b761.js",
+    "index.html": "/index.html",
+    "main.31688832.css.map": "/static/css/main.31688832.css.map",
+    "main.d550b761.js.map": "/static/js/main.d550b761.js.map"
   },
   "entrypoints": [
     "static/css/main.31688832.css",
-    "static/js/main.02fbd52e.js"
+    "static/js/main.d550b761.js"
   ]
 }
