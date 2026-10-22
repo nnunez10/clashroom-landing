@@ -167,3 +167,13 @@ nav a,.watch-link{font-size:12px}.button{font-size:13px}.proof-description,.proc
 .signup{background:#1b293a;border-left:4px solid var(--amber)}
 @media(hover:hover){.source-reveal summary:hover{background:#ffd193}}
 .recent-example a:focus-visible{outline-color:#8c3e08}
+
+/* October 22: first-time visitors see an outcome before a feature name. */
+.hero-without-intro .hero-copy{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);column-gap:48px}
+.hero-without-intro h1{font-size:clamp(38px,4.3vw,62px)}
+.hero-actions .watch-link{text-decoration:none;gap:10px;font-size:13px}
+.intro-origin a{color:var(--amber);text-underline-offset:4px}
+.series-explainer{max-width:680px;color:#475569;font-size:14px;line-height:1.7;margin:0 0 22px}
+.example-preview{padding:16px 18px;margin:0 0 16px;border-left:3px solid #b85b12;background:#fffdf8;color:#0f172a;font-size:16px;line-height:1.7;border-radius:0 12px 12px 0;max-width:850px}
+.recent-example:focus-visible,.proof-section:focus-visible{outline:2px solid var(--amber);outline-offset:8px}
+@media(max-width:760px){.hero-without-intro h1{font-size:clamp(36px,9vw,48px)}.hero-actions{gap:10px 20px}.series-explainer{font-size:13px;margin-bottom:17px}.example-preview{padding:14px;font-size:14px}}

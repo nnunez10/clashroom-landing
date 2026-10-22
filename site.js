@@ -18,7 +18,7 @@ async function playAt(time = 0) {
   } catch (error) {
     if(error.name === "AbortError" && video.paused){
       status.textContent = "Paused. Inspect the details or keep watching.";
-      playLabel.textContent = "Follow the check";
+      playLabel.textContent = "Play the walkthrough";
     } else {
       status.textContent = "Playback couldn’t start. Try Play again or open the video separately.";
       playLabel.textContent = "Try again";
