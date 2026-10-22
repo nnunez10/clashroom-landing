@@ -258,9 +258,17 @@ nav a,.watch-link{font-size:12px}.button{font-size:13px}.proof-description,.proc
 
 @media(max-width:360px){.site-header{column-gap:8px}.site-header .brand{font-size:20px}.site-header .brand-icon{width:31px;height:31px;margin-right:5px}.site-header .brand-icon img{width:39px;height:39px;transform:translate(-4px,-4px)}.site-header .nav-cta{font-size:10px;gap:10px}}
 
-/* A real shared-phone moment introduces the human need before the story. */
-.hero-human{width:100%;max-width:430px;margin:0 0 17px}
-.hero-human img{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:18px;border:1px solid #597082;background:#1b293a}
-.hero-human figcaption{display:flex;flex-wrap:wrap;gap:0 5px;align-items:center;color:#c9d1dc;font-size:10px;line-height:1.5;margin:5px 0 0}
-.hero-human figcaption a{color:#c9d1dc;text-underline-offset:3px;display:inline-flex;align-items:center;min-height:24px}
-@media(max-width:760px){.hero-human{max-width:430px;margin-bottom:14px}.hero-human img{border-radius:15px}.hero-human figcaption{font-size:10px}}
+/* A single use-case scene: shared post, explicit claim, deliberate exploration. */
+#story-moment{padding:20px;min-height:425px}
+#story-moment .story-kicker{margin-bottom:12px}
+.claim-scene-photo{width:100%;margin:0}
+.claim-scene-photo img{display:block;width:100%;height:auto;aspect-ratio:16/9;border:1px solid #597082;border-radius:14px;background:#1b293a}
+.claim-scene-photo figcaption{color:#c9d1dc;font-size:10px;line-height:1.5;margin:4px 0 0;display:flex;flex-wrap:wrap;gap:0 5px;align-items:center}
+.claim-scene-photo figcaption a{color:#c9d1dc;text-underline-offset:3px;display:inline-flex;align-items:center;min-height:24px}
+.claim-scene-statement{position:relative;margin:10px 0 0;padding:14px 16px;border-left:4px solid #ffb65e;border-radius:0 13px 13px 0;background:#fff2df;color:#0f172a;width:100%}
+.claim-scene-statement .scene-label{font:9px/1.6 ui-monospace,monospace;letter-spacing:.02em;color:#71411c;margin:0 0 7px}
+.claim-scene-statement .scene-quote{font-size:20px;line-height:1.4;font-weight:750;letter-spacing:-.02em;margin:0}
+#story-moment .story-human{font-size:13px;line-height:1.6;margin:13px 0}
+#story-moment .story-action{width:100%;margin-top:auto}
+@media(max-width:760px){#story-moment{padding:18px}.claim-scene-statement .scene-quote{font-size:19px}.claim-scene-photo figcaption{font-size:10px}}
+@media(max-width:360px){#story-moment{padding:16px}.claim-scene-statement{padding:12px}.claim-scene-statement .scene-quote{font-size:17px}}

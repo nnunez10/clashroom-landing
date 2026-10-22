@@ -70,10 +70,10 @@ form.addEventListener("submit",event=>{
   const back = document.querySelector('#story-back'), next = document.querySelector('#story-next');
   const play = document.querySelector('#story-play'), message = document.querySelector('#story-status');
   const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const durations = [5000,5500,7500,6000];
+  const durations = [8000,5500,10500,8000];
   let step = 0, timer = null, running = false;
   const titles = ['The moment','Look closer','The source','Bring it back'];
-  function stop() { if (timer !== null) clearTimeout(timer); timer = null; running = false; shell.classList.remove('story-running'); play.textContent = step === 3 ? 'Replay story' : step === 0 ? 'Play 24-sec story' : 'Play from start'; }
+  function stop() { if (timer !== null) clearTimeout(timer); timer = null; running = false; shell.classList.remove('story-running'); play.textContent = step === 3 ? 'Replay story' : step === 0 ? 'Play 32-sec story' : 'Play from start'; }
   function source(angle) {
     document.querySelector('#story-source-title').textContent = angle === 'appearance' ? 'Looks can raise a question.' : 'A hands-on process.';
     document.querySelector('#story-source-explanation').textContent = angle === 'appearance'
@@ -98,7 +98,7 @@ form.addEventListener("submit",event=>{
   document.querySelectorAll('[data-story-angle]').forEach(button => button.addEventListener('click',() => { source(button.dataset.storyAngle); manual(2); }));
   back.addEventListener('click',() => manual(step-1)); next.addEventListener('click',() => manual(step+1));
   play.addEventListener('click',() => { if (running) { stop(); return; } if (motion.matches) return; source('process'); show(0); running = true; shell.classList.add('story-running'); play.textContent = 'Pause story'; schedule(); });
-  function preference() { if (motion.matches) { stop(); play.disabled = true; play.textContent = 'Use Next · reduced motion'; } else { play.disabled = false; play.textContent = step === 3 ? 'Replay story' : step === 0 ? 'Play 24-sec story' : 'Play from start'; } }
+  function preference() { if (motion.matches) { stop(); play.disabled = true; play.textContent = 'Use Next · reduced motion'; } else { play.disabled = false; play.textContent = step === 3 ? 'Replay story' : step === 0 ? 'Play 32-sec story' : 'Play from start'; } }
   motion.addEventListener('change',preference);
   panels.forEach(panel => panel.addEventListener('focusin',() => { if (running) { stop(); preference(); message.textContent = 'Story paused for reading. Use Next when you’re ready.'; } }));
   document.addEventListener('visibilitychange',() => { if (document.hidden) { stop(); preference(); } });

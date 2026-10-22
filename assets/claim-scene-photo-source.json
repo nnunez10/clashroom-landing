@@ -1,0 +1,30 @@
+{
+  "retrieved": "2026-10-22",
+  "creator": "Vitaly Gariev",
+  "source": "https://unsplash.com/photos/two-friends-smile-while-looking-at-a-phone-TSRu3gwVdEQ",
+  "sourcePublicationDate": "2025-07-24",
+  "license": "Unsplash License",
+  "licenseUrl": "https://unsplash.com/license",
+  "observedLicense": "Free to use under the Unsplash License",
+  "role": "Illustrative indoor shared-phone scene. The statement is authored separately for the website, not a quote from the pictured people or a real social post. Not customers, endorsement, app use, an actual conversation or a live check.",
+  "transform": "Source CDN focal crop, WebP conversion and size optimization only. No AI generation, retouching, screen replacement or depicted-app UI.",
+  "derivatives": [
+    {
+      "file": "claim-scene-cafe-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 81816,
+      "sha256": "dd01a3c7ca6c5856d8e37e87c6b09ff156b7d3d61a1df9324b4af7416a6a755d",
+      "downloadUrl": "https://images.unsplash.com/photo-1753351056236-9b5d333dcc40?fm=webp&fit=crop&crop=focalpoint&fp-x=0.65&fp-y=0.55&w=960&h=540&q=83"
+    },
+    {
+      "file": "claim-scene-cafe-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 31646,
+      "sha256": "345da8655c2faebcf23721181067703fc7e8fab0f2c069e001f61a6dac035b83",
+      "downloadUrl": "https://images.unsplash.com/photo-1753351056236-9b5d333dcc40?fm=webp&fit=crop&crop=focalpoint&fp-x=0.65&fp-y=0.55&w=480&h=270&q=83"
+    }
+  ],
+  "limits": "Copyright license observed on original page and official license page. No independent model-release, identity or age verification; no endorsement or product use claimed."
+}

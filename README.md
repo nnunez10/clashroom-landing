@@ -1,3 +1,9 @@
+# Current: integrated claim scenario — October 22, 2026
+
+Founder rejected the standalone outdoor photo as irrelevant to the intended broad audience. It has been removed from the page. One indoor shared-phone photograph now lives inside the first interactive chapter together with an explicit authored claim and deliberate action into reporting. The headline states the everyday question; source context and product role stay visible. This is an illustrative marketing scenario, not a real post, customer testimonial, actual depicted conversation or live engine result. Earlier outdoor files remain unreferenced for history. Existing app-recording/signup contracts are unchanged. Story autoplay now allows 8/5.5/10.5/8 seconds per chapter (32 seconds total); manual/pause/focus/reduced-motion behavior is preserved. Timing is still subject to real reading-pace review. Provenance is in assets/claim-scene-photo-source.json. Creative/layout/comprehension acceptance remains unverified.
+
+## Historical checkpoints (superseded presentation)
+
 # Current: human photograph in the opening — October 22, 2026
 
 A genuine credited Mugabi Owen photograph from Unsplash now appears beside the interactive story and above the headline. It illustrates two people examining a phone together; it is not a customer testimonial, endorsement or app-use record. The two responsive WebP derivatives are hosted locally, with dimensions and eager loading. Provenance, source, copyright license and exact derivative URLs are in assets/human-photo-source.json. The interactive story/player/signup behavior is unchanged. Real page layout, reading pace, comprehension and signup delivery remain unverified after the saved browser denial.
