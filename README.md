@@ -15,3 +15,5 @@ Privacy/Terms destinations inherited from the review draft returned 404; no main
 Font: self-hosted Manrope; its SIL Open Font License is in assets/Manrope-OFL.txt. Accepted logo and previous static assets are preserved. Old bundles remain for compatibility but are no longer referenced by the page.
 
 Rollback: the prior gh-pages commit is 701e8face9e327a5e0f9b2e1aefce29d2b35a822. Preserve Git history; use a reviewed revert or a new restoration commit if needed, not a forced branch reset.
+
+Later October 22: founder requested more orange and less darkness. Use existing warm amber on the main invitation, beta action and small wayfinding accents; brighter cream Viral File/source surfaces and lifted navy cards provide contrast. Accepted logo/cyan identity, evidence labels and verification semantics remain unchanged. This is a scoped website design judgment, not a demonstrated Gen Z preference or a mobile recolor.

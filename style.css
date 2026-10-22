@@ -146,3 +146,24 @@ nav a,.watch-link{font-size:12px}.button{font-size:13px}.proof-description,.proc
 .hero-without-intro .hero-actions{grid-column:2;grid-row:3}
 .hero-without-intro .intro-origin{grid-column:2;grid-row:4}
 @media(max-width:760px){.hero-without-intro .hero-copy{display:block}}
+
+/* October 22 founder direction: more warm orange and brighter reading surfaces. */
+:root{--bg:#101a2a}
+.hero-actions .primary,.signup .primary{background:var(--amber);color:#0f172a}
+.hero-actions .primary:hover,.signup .primary:hover{background:#ffca88}
+.nav-cta{color:var(--amber);border-bottom-color:var(--amber)}
+.hero-rule span{background:linear-gradient(90deg,var(--cyan),var(--amber))}
+.curiosity-pill{background:#ffb65e1a;border-color:#ffb65e88}
+.recent-example .hero-example{background:#fff2df;color:#0f172a;border-color:#c56c1a;border-top-width:4px}
+.file-heading .example-label{color:#71411c}
+.file-tab{color:#8c3e08}
+.file-invitation,.hero-example .example-date{color:#475569}
+.source-reveal{border-color:#b85b12}
+.source-reveal summary{background:#ffe0b2;color:#0f172a}
+.source-reveal summary:focus-visible{outline-color:#8c3e08}
+.source-paper{background:#fffdf8}
+.process-grid li{background:#1b293a;border-top:3px solid var(--amber)}
+.step-number{color:var(--amber)}
+.signup{background:#1b293a;border-left:4px solid var(--amber)}
+@media(hover:hover){.source-reveal summary:hover{background:#ffd193}}
+.recent-example a:focus-visible{outline-color:#8c3e08}
