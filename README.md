@@ -1,3 +1,9 @@
+# Current: interactive introduction — October 22, 2026
+
+October 22 screenshot feedback supersedes the text-led first-visitor pass. An explicitly authored interactive motion story now leads: illustrated conversation, two exploration paths, attributed source/limits and a useful unsent reply. Manual chapters and 24-second playback have no automatic start/loop; reduced motion and hidden tabs stop advancement. Beta invitation is primary near the top and repeated at the single existing form. Static process and open-minds sections are removed; original source notes and real built-in app recording remain in native disclosures. No actual user conversation, live verification, send/save operation or new media/TTS generation is represented. Focus entering an illustration panel pauses automatic progression, so a focused source is not hidden. Reading-panel focus uses dark orange against cream. Real rendered appearance, reading pace, comprehension and signup delivery remain unverified.
+
+## Earlier checkpoints (superseded presentation)
+
 # ClashRoom public landing
 
 Interim update, October 22, 2026. Creative direction and human voiceover remain future work.

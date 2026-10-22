@@ -15,32 +15,71 @@
   <meta property="og:image" content="https://www.clashroom.app/assets/clashroom-logo-lime-cyan.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preload" href="assets/Manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="style.css?v=20261022-first-visit">
-  <script src="site.js?v=20261022-first-visit" defer></script>
+  <link rel="stylesheet" href="style.css?v=20261022-interactive-story">
+  <script src="site.js?v=20261022-interactive-story" defer></script>
 </head>
 <body data-preview="false">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header wrap">
-    <a class="brand" href="#main" aria-label="ClashRoom home"><span class="brand-icon"><img src="assets/clashroom-logo-lime-cyan.png" width="64" height="64" alt=""></span>ClashRoom<span class="brand-dot" aria-hidden="true">.</span></a>
-    <nav aria-label="Main navigation"><a href="#the-file">Explore an example</a><a href="#the-check">How the app works</a><a class="nav-cta" href="#waitlist">Beta updates <span aria-hidden="true">↗</span></a></nav>
+    <a class="brand" href="#main" aria-label="ClashRoom home"><span class="brand-icon"><img src="assets/clashroom-logo-lime-cyan.png" width="64" height="64" alt=""></span>ClashRoom<span class="brand-dot" aria-hidden="true">.</span></a><p class="brand-purpose">An app to help you check what you hear online.</p>
+    <nav aria-label="Main navigation"><a href="#interactive-story">Explore the story</a><a href="#prototype-proof">Recorded app example</a><a class="nav-cta" href="#waitlist">Beta updates <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main id="main" tabindex="-1">
-    <section class="hero wrap" id="why-clashroom" aria-labelledby="hero-title">
-      <div class="hero-top"><p class="eyebrow"><span class="orange-dot" aria-hidden="true"></span>CHECK THE CLAIM. SEE THE EVIDENCE.</p><p class="edition">PRIVATE PROTOTYPE</p></div>
-      <div class="hero-layout hero-without-intro">
+    <section class="hero wrap experience-hero" id="why-clashroom" aria-labelledby="hero-title">
+      <div class="hero-layout story-layout">
         <div class="hero-copy">
-          <p class="curiosity-pill">FOR THE POST THAT MAKES YOU PAUSE</p>
-          <h1 id="hero-title">Before you share it,<br><span>see what backs it up.</span></h1>
-          <p class="hero-description">A convincing clip can leave out the context. We’re building ClashRoom to help you check one exact claim, inspect the evidence and save what you found.</p>
-          <div class="hero-actions"><a class="button primary" href="#the-file">See a claim unpacked <span aria-hidden="true">↓</span></a><a class="watch-link" href="#the-check">How the app works <span aria-hidden="true">↗</span></a></div>
-          <p class="intro-origin">Explore an example here. <a href="#waitlist">Get beta updates</a> for the private prototype.</p>
+          <p class="eyebrow"><span class="orange-dot" aria-hidden="true"></span>CHECK THE CLAIM. SEE THE EVIDENCE.</p>
+          <h1 id="hero-title">Wait.<br><span>Is that actually true?</span></h1>
+          <p class="hero-description">ClashRoom is an app we’re building to help you check things people say online—with sources you can open and results you can revisit.</p>
+          <div class="hero-actions"><a class="button primary" href="#waitlist">Get beta updates <span aria-hidden="true">↗</span></a><a class="watch-link" href="#interactive-story">Explore the story <span aria-hidden="true">↓</span></a></div>
+          <p class="intro-origin">For your next “wait, really?” · Private prototype</p>
         </div>
-</div>
-      <div class="hero-rule" aria-hidden="true"><span></span></div>
+        <div class="story-shell" id="interactive-story" tabindex="-1" aria-label="An interactive illustration of why sources matter">
+          <div class="story-meta"><span>THE VIRAL FILES · A CLAIM IN CONTEXT</span><span>INTERACTIVE ILLUSTRATION</span></div>
+          <div class="story-tabs" role="group" aria-label="Story chapters" hidden>
+            <button type="button" data-story-step="0" aria-pressed="true" aria-controls="story-moment">The moment</button><button type="button" data-story-step="1" aria-pressed="false" aria-controls="story-question">Look closer</button><button type="button" data-story-step="2" aria-pressed="false" aria-controls="story-source">The source</button><button type="button" data-story-step="3" aria-pressed="false" aria-controls="story-reply">Bring it back</button>
+          </div>
+          <div class="story-stage">
+            <article class="story-panel" id="story-moment" data-story-panel="0" tabindex="-1">
+              <p class="story-kicker">01 / SOMEONE DROPS A TAKE IN THE CHAT.</p>
+              <div class="chat-art" aria-label="Illustrated conversation, not real users">
+                <div class="chat-avatar" aria-hidden="true">?</div><div class="chat-bubble incoming"><span class="chat-person">Illustrated friend</span><p>Olivia Rodrigo’s “Expectations” animation looks like AI.</p></div>
+                <div class="chat-bubble outgoing"><span class="chat-person">You, wondering</span><p>Wait. Do we know how it was made?</p></div>
+                <div class="story-orbit" aria-hidden="true"><span>?</span><img src="assets/clashroom-logo-lime-cyan.png" width="54" height="54" alt=""><span>↗</span></div>
+              </div>
+              <p class="story-human">You want something better than another guess.</p>
+              <button class="story-action" type="button" data-story-next disabled>Let’s look into it <span aria-hidden="true">↗</span></button>
+            </article>
+            <article class="story-panel" id="story-question" data-story-panel="1" tabindex="-1" hidden>
+              <p class="story-kicker">02 / FOLLOW THE QUESTION.</p><h2>What would you<br>look at first?</h2><p>Two ways into the same story. Pick one.</p>
+              <div class="story-choices"><button type="button" data-story-angle="appearance"><span class="choice-art" aria-hidden="true">? ≈ ?</span><strong>Why people wondered</strong><span>What made the animation look unusual?</span></button><button type="button" data-story-angle="process"><span class="choice-art" aria-hidden="true">✎ → ▷</span><strong>How it was made</strong><span>What does the reporting describe?</span></button></div>
+              <p class="story-human">A good question gives curiosity somewhere to go.</p>
+            </article>
+            <article class="story-panel paper-panel" id="story-source" data-story-panel="2" tabindex="-1" hidden>
+              <p class="story-kicker">03 / HERE’S SOMETHING YOU CAN OPEN.</p><h2 id="story-source-title">A hands-on process.</h2><p id="story-source-explanation">Rolling Stone describes drawings, 2D/3D animation and analog treatments, including filming screen output for the retro effect.</p>
+              <a class="story-source-link" href="https://au.rollingstone.com/music/music-news/olivia-rodrigo-expectations-ai-debunk-102380/" target="_blank" rel="noopener">Read the Rolling Stone report <span aria-hidden="true">↗</span></a>
+              <p class="story-limit">What it doesn’t settle: every production step. This reporting is useful context, not a complete audit.</p>
+              <div class="story-paper-stamp" aria-hidden="true">SOURCE<br>OVER GUESS</div>
+              <button class="story-action" type="button" data-story-next disabled>What can I bring back? <span aria-hidden="true">↗</span></button>
+            </article>
+            <article class="story-panel" id="story-reply" data-story-panel="3" tabindex="-1" hidden>
+              <p class="story-kicker">04 / SOMETHING USEFUL TO SAY.</p><h2>More context.<br>Less guesswork.</h2>
+              <div class="chat-bubble outgoing takeaway"><span class="chat-person">Illustrated reply—not sent</span><p>The report describes hands-on animation techniques. It doesn’t audit everything, but here’s a better place to start.</p><a href="https://au.rollingstone.com/music/music-news/olivia-rodrigo-expectations-ai-debunk-102380/" target="_blank" rel="noopener">The source ↗</a></div>
+              <p class="story-human">That’s the help we’re building: understand more, bring something useful back, keep the source within reach.</p>
+              <a class="story-action" href="#waitlist">Want help with your next claim? <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+          <div class="story-controls" hidden><button id="story-back" type="button" disabled>← Back</button><button id="story-play" type="button">Play 24-sec story</button><button id="story-next" type="button">Next →</button></div>
+          <p id="story-status" class="sr-only" role="status" aria-live="polite">An illustrated example. Start when you’re ready.</p>
+          <div class="story-provenance"><span>Authored scene · selected reporting · not a live app result</span><a href="https://au.rollingstone.com/music/music-news/olivia-rodrigo-expectations-ai-debunk-102380/" target="_blank" rel="noopener">Source · Oct 20, 2026 ↗</a></div>
+          <noscript><p class="story-noscript">For the full story without JavaScript, <a href="#the-file">open the source notes below</a>. Beta signup still works.</p></noscript>
+        </div>
+      </div>
     </section>
 
+
     <section class="recent-example wrap" id="the-file" tabindex="-1" aria-labelledby="example-claim">
-        <article class="hero-example">
+        <details class="source-notes"><summary>The Viral Files: the reporting behind this story <span aria-hidden="true">+</span></summary><article class="hero-example">
           <div class="file-heading"><p class="example-label"><span class="orange-dot" aria-hidden="true"></span>THE VIRAL FILES</p><span class="file-tab">MUSIC + AI</span></div>
           <p class="series-explainer">Claims from the feed, unpacked. What’s being said, what the sources show and what’s still unclear.</p>
           <h2 id="example-claim">Was Olivia Rodrigo’s “Expectations” animation made with AI?</h2>
@@ -53,14 +92,14 @@
             <p class="source-limit">The limit: this is published reporting, not a complete audit of every production step. It is not a live ClashRoom verdict.</p>
           </div></details>
           <p class="example-date">Selected reporting, not a live app result · report Oct 20 · source rechecked Oct 22, 2026</p>
-        </article>
+        </article></details>
     </section>
 
 <section class="proof-section wrap" id="the-check" tabindex="-1" aria-labelledby="proof-title">
-      <div class="section-heading"><p class="eyebrow">RECORDED PROTOTYPE · OCT 20, 2026</p><p>Different claim · built-in example.</p></div>
+      <details class="recording-details" id="prototype-proof"><summary><span>Watch the real app recording</span><small>22 seconds · silent · built-in Moon example</small><span aria-hidden="true">+</span></summary><div class="section-heading"><p class="eyebrow">RECORDED PROTOTYPE · OCT 20, 2026</p><p>Different claim · built-in example.</p></div>
       <div class="proof-stage">
-        <div class="proof-copy"><p class="small-label">FROM A STATEMENT TO A SOURCE</p><h2 id="proof-title">See a check<br>inside the app.</h2><p class="proof-description">This recording uses “The moon landing was fake,” a built-in example with a NASA reference. This film does not check the music-video claim above.</p>
-          <button class="watch-link" id="watch" type="button"><span class="play-symbol" aria-hidden="true">▶</span>Play the app walkthrough <span class="duration">0:22 · silent</span></button>
+        <div class="proof-copy"><p class="small-label">FROM A STATEMENT TO A SOURCE</p><h2 id="proof-title">A statement.<br>A source you can open.</h2><p class="proof-description">This older recording shows a built-in Moon-landing response and its NASA reference. A separately dated saved receipt follows. This film does not check the music-video claim above.</p>
+          <button class="watch-link" id="watch" type="button"><span class="play-symbol" aria-hidden="true">▶</span>Play the prototype recording <span class="duration">0:22 · silent</span></button>
           <div class="chapters" aria-label="Walkthrough chapters">
             <button type="button" class="chapter" data-time="0.4" aria-pressed="false"><span>01</span><strong>The exact statement</strong><span class="chapter-arrow" aria-hidden="true">↗</span></button>
             <button type="button" class="chapter" data-time="9.5" aria-pressed="false"><span>02</span><strong>The NASA reference</strong><span class="chapter-arrow" aria-hidden="true">↗</span></button>
@@ -79,22 +118,7 @@
           <a class="receipt-link" href="assets/receipt-2026-10-21.png" target="_blank" rel="noopener">Inspect the October 21 receipt still <span aria-hidden="true">↗</span></a>
         </figure>
       </div>
-    </section>
-
-
-
-    <section class="process wrap" aria-labelledby="process-title">
-      <div class="section-heading"><p class="eyebrow">THE CHECKING JOURNEY</p><h2 id="process-title">One claim. A clearer picture.</h2></div>
-      <ol class="process-grid">
-        <li><span class="step-number">01 ↗</span><h3>Choose one claim.</h3><p>Pick the exact statement you want to check. A post or link provides context.</p></li>
-        <li><span class="step-number">02 ↘</span><h3>Inspect the evidence.</h3><p>Look at the sources, what they establish and what remains uncertain.</p></li>
-        <li><span class="step-number">03 ↺</span><h3>Save it for later.</h3><p>Reopen the result when the claim comes up again. Keep the receipts.</p></li>
-      </ol>
-    </section>
-
-        <section class="point-of-view wrap" id="point-of-view" aria-labelledby="view-title">
-      <div><p class="eyebrow">THE CONVERSATION</p><h2 id="view-title">Hot takes.<br><span>Open minds.</span></h2></div>
-      <div class="view-copy"><span class="orange-mark" aria-hidden="true">*</span><p class="conversation-lead">There’s room for “we don’t know.”</p><p>No match doesn’t mean false. A useful check makes the limits visible, too.</p><p>Be curious about the claim. Be decent to the person.</p></div>
+    </details>
     </section>
 
     <aside class="origin wrap" aria-labelledby="origin-title"><div><p class="eyebrow">CLASH + CLASSROOM</p><h2 id="origin-title">Ideas clash. People learn.</h2></div><p>The name is a play on classroom. Follow the question. Learn something worth bringing back.</p></aside>
@@ -108,7 +132,7 @@
 
     <section class="signup wrap" id="waitlist" aria-labelledby="signup-title">
       <p class="eyebrow"><span class="orange-dot" aria-hidden="true"></span>BRING YOUR NEXT “WAIT, REALLY?”</p>
-      <div class="signup-heading"><h2 id="signup-title">Stay curious.<br><span>Get beta updates.</span></h2><p>Leave your email for product updates and invitations to beta testing. ClashRoom is a private prototype; there’s no public launch date yet.</p></div>
+      <div class="signup-heading"><h2 id="signup-title">Want help with your<br><span>next “wait, really?”</span></h2><p>Get updates as we build ClashRoom, plus news about beta testing. We’re in private development; signup isn’t instant access.</p></div>
       <form id="signup-form" action="https://hooks.zapier.com/hooks/catch/23692566/u3lqrp4/" method="post">
         <fieldset id="signup-fields"><legend class="sr-only">ClashRoom beta interest list</legend><label for="email">Email address</label><div class="input-row"><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><button class="button primary" type="submit">Get beta updates <span aria-hidden="true">↗</span></button></div></fieldset>
         <div class="form-detail"><p>For beta invitations and ClashRoom product updates.</p><p id="form-status" role="status"></p></div><noscript><p>The email form works without JavaScript. Video controls remain available by opening the files directly.</p></noscript>
