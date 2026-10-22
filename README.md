@@ -2,6 +2,8 @@
 
 Interim update, October 22, 2026. Creative direction and human voiceover remain future work.
 
+Later October 22 flow revision uses the app's Bring the post voice, optional native source-note reveal, compact claim/source/receipt loop, actual demo, open-minded conversation and beta updates. Navy/cyan/paper panels follow the app; humor supports checking without changing evidence standards. This is an audience/design hypothesis, not measured conversion or retention. Media, player script and existing signup contract are unchanged.
+
 The production site at https://www.clashroom.app/ is served from the root of this repository’s gh-pages branch. These HTML/CSS/JS files are the current buildless source and deployment output. No dependency installation or framework build is required. The old main-branch React app is historical and must not be redeployed over this version unintentionally.
 
 Preserve CNAME (www.clashroom.app), the POST form action and required email field. This publication restores the existing signup contract; actual email delivery has not been tested by submitting a signup. No subscriber data is included.
