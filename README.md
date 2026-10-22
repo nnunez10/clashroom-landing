@@ -8,7 +8,7 @@ The production site at https://www.clashroom.app/ is served from the root of thi
 
 Preserve CNAME (www.clashroom.app), the POST form action and required email field. This publication restores the existing signup contract; actual email delivery has not been tested by submitting a signup. No subscriber data is included.
 
-The opening uses AI-generated artwork, authentic dated prototype inserts and original sound cues, with no synthetic narration. The longer walkthrough is a separate built-in example with a NASA reference and later receipt still. Keep the dates, disclosures and original-receipt link. The product is in private prototype development.
+Founder rejected the opening film later October 22. Its player, Play action, transcript/disclosure and social-preview poster reference have been removed. The header now leads directly toward the existing Viral File. The separate recorded walkthrough remains a built-in example with a NASA reference and later receipt still; keep its dates, disclosures and original-receipt link. Old intro assets remain unreferenced for history/compatibility. No unfinished replacement concept is published. The product is in private prototype development.
 
 Privacy/Terms destinations inherited from the review draft returned 404; no maintained policy source or contact mailbox was found in this repository. Broken/unverified links are omitted rather than replaced with invented policies. Maintained policy/contact content remains follow-up work.
 
