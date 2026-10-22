@@ -257,3 +257,10 @@ nav a,.watch-link{font-size:12px}.button{font-size:13px}.proof-description,.proc
 @media(prefers-reduced-motion:reduce){.story-shell *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 
 @media(max-width:360px){.site-header{column-gap:8px}.site-header .brand{font-size:20px}.site-header .brand-icon{width:31px;height:31px;margin-right:5px}.site-header .brand-icon img{width:39px;height:39px;transform:translate(-4px,-4px)}.site-header .nav-cta{font-size:10px;gap:10px}}
+
+/* A real shared-phone moment introduces the human need before the story. */
+.hero-human{width:100%;max-width:430px;margin:0 0 17px}
+.hero-human img{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:18px;border:1px solid #597082;background:#1b293a}
+.hero-human figcaption{display:flex;flex-wrap:wrap;gap:0 5px;align-items:center;color:#c9d1dc;font-size:10px;line-height:1.5;margin:5px 0 0}
+.hero-human figcaption a{color:#c9d1dc;text-underline-offset:3px;display:inline-flex;align-items:center;min-height:24px}
+@media(max-width:760px){.hero-human{max-width:430px;margin-bottom:14px}.hero-human img{border-radius:15px}.hero-human figcaption{font-size:10px}}

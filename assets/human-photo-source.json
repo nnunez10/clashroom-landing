@@ -1,0 +1,31 @@
+{
+  "retrieved": "2026-10-22",
+  "title": "Two men looking at a smartphone outdoors smartphone",
+  "creator": "Mugabi Owen",
+  "source": "https://unsplash.com/photos/two-men-looking-at-a-smartphone-outdoors-smartphone-oCq3LW3rCD8",
+  "sourcePublicationDate": "2026-01-19",
+  "license": "Unsplash License",
+  "licenseUrl": "https://unsplash.com/license",
+  "observedSourceLicense": "Free to use under the Unsplash License",
+  "role": "Illustrative shared-phone scene. Not customers, testimonials, endorsement, app use or evidence of the editorial claim.",
+  "transform": "Unsplash image CDN focal crop, WebP conversion and size optimization only; no AI generation or retouching.",
+  "derivatives": [
+    {
+      "file": "friends-phone-mugabi-owen-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 142730,
+      "sha256": "7d7c3f52b6d50be265d27f1dedaf7727bebdece1d6d45dc14e1df5bba47a7fbe",
+      "downloadUrl": "https://images.unsplash.com/photo-1768830444423-5e5c640c4c98?fm=webp&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.52&w=960&h=540&q=83"
+    },
+    {
+      "file": "friends-phone-mugabi-owen-480.webp",
+      "width": 480,
+      "height": 270,
+      "bytes": 49064,
+      "sha256": "cef9c87d148bddff0e30474ce5fbb3adda46d8e1574db8c42921ee15684d506a",
+      "downloadUrl": "https://images.unsplash.com/photo-1768830444423-5e5c640c4c98?fm=webp&fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.52&w=480&h=270&q=83"
+    }
+  ],
+  "limits": "Copyright license observed on the source and official license page. No independently verified identity, ages, model releases or use of ClashRoom; none claimed."
+}
